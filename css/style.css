@@ -1067,8 +1067,8 @@ transition: 0.5s;
    position: absolute;
    top:515px ;
    left: 1100px;
-width: 600px;
-height: 500px;
+width: 400px;
+height: 400px;
    transform: translate(-50%, -50%);
    /*border: 1px solid black;*/
 }
@@ -1209,7 +1209,7 @@ background: linear-gradient(#5e01aa,#e95bef);
    animation-delay: 2083.3333333333ms;
 }
  .shelf {
-   width: 350px;
+   width: 300px;
    height: 5px;
    margin: 0 auto;
    background-color: white;
