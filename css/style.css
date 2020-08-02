@@ -1287,16 +1287,14 @@ background: linear-gradient(#5e01aa,#e95bef);
 }
 .text1{
   position: absolute;
-  top: 355px;
-  left: 770px;
+  top: 365px;
+  left: 795px;
   /*border: 2px solid black;*/
 }
 .text1 p{
   font-size: 20px;
   text-align: left;
   word-spacing: 1.2em;
-
-  text-decoration: underline;
   font-weight: 300;
 
 }
