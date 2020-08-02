@@ -1292,10 +1292,12 @@ background: linear-gradient(#5e01aa,#e95bef);
   /*border: 2px solid black;*/
 }
 .text1 p{
+  color: #000000;
+
   font-size: 20px;
   text-align: left;
   word-spacing: 1.2em;
-  font-weight: 300;
+  font-weight: 1000;
 
 }
 .credits
