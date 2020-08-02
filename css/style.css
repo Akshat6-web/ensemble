@@ -1067,8 +1067,8 @@ transition: 0.5s;
    position: absolute;
    top:515px ;
    left: 1100px;
-width: 400px;
-height: 400px;
+width: 600px;
+height: 500px;
    transform: translate(-50%, -50%);
    /*border: 1px solid black;*/
 }
