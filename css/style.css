@@ -1065,7 +1065,7 @@ transition: 0.5s;
 
  .bookshelf_wrapper {
    position: absolute;
-   top:515px ;
+   top:540px ;
    left: 1100px;
 width: 400px;
 height: 400px;
@@ -1288,7 +1288,7 @@ background: linear-gradient(#5e01aa,#e95bef);
 .text1{
   position: absolute;
   top: 365px;
-  left: 795px;
+  left: 810px;
   /*border: 2px solid black;*/
 }
 .text1 p{
