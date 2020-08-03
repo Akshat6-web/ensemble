@@ -529,7 +529,7 @@ padding-top:25px;
     background-image: url(../images/first-main-icon.png);
 }
 
-.fa-people-arrows {
+ .service-item .fa-people-arrows {
     /*background-image: url(../images/second-white-icon.png);*/
     background: #3B5998;
   color: white;}
