@@ -864,6 +864,12 @@ li:nth-child(2) {
     color: black;
    font-weight: 1000;
   }
+  .outer-wrapper{
+    position: absolute;
+    top: 20px;
+    left:15px;
+    border: 2px solid black;
+  }
   .hover-demo{margin-top: 220px;}
 .hover-demo{text-align: center;}
 .on-hover-content{position: absolute;bottom: 40px;background-color: whitesmoke;padding: 10px;border-radius: 10px;}
