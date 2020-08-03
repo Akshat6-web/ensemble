@@ -39,6 +39,7 @@
 		<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	</head>
 	<body>
@@ -463,6 +464,15 @@ anime.timeline({loop: true})
 			<section data-anchor="Page 4">
 				<div class="text2">
 					<h2>Overview</h2>
+					<div class="col-md-4">
+          <div class="outer-wrapper">
+            <div class="on-hover-content">
+            <img src="img/mustang.jpg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada turpis metus, vitae fermentum mauris imperdiet ut. Suspendisse aliquam</p>
+            </div>
+            <a type="button" class="btn btn-primary">An Image with text</a>
+           </div>
+        </div>
 			  <div class="sided">
                <h1> Overall Purpose & <br> Aims <br> of the Workshop</h1>
                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -484,11 +494,24 @@ The aims of the teaching and learning of this workshop are to encourage and enab
 <br>
 ● Reflect on the local and global impact of authentic teaching and learning.
     </p>   </div>
-
-
-
 			</div>
 			</section>
+<script type="text/javascript">
+      $(document).ready(function(){
+          $("div.on-hover-content").hide();
+      });
+
+      $(".btn").mouseenter(function(){
+        $(this).siblings("div.on-hover-content").fadeToggle( "slow", "linear" );
+      })
+      .mouseleave(function(){
+         
+        $(this).siblings("div.on-hover-content").fadeToggle( "slow", "linear" );
+      });
+
+    </script>
+
+	
 			<section data-anchor="Page 5">
 				<div class="text2">
 					<h2>Resources</h2>

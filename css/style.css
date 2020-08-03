@@ -521,11 +521,11 @@ padding-top:25px;
     transition: all 0.5s;
 }
 
-.service-item .first-service-icon {
+.service-item .iconx .fa-people-arrows {
     background-image: url(../images/first-white-icon.png);
 }
 
-.service-item:hover .first-service-icon  {
+.service-item .iconx .fa-people-arrows {
     background-image: url(../images/first-main-icon.png);
 }
 
@@ -536,15 +536,15 @@ padding-top:25px;
   size: 60px;
 }
 
-.service-item:hover .second-service-icon {
+.service-item .iconx .fa-people-arrows {
     background-image: url(../images/second-main-icon.png);
 }
 
-.service-item .third-service-icon {
+.service-item .iconx .fa-people-arrows {
     background-image: url(../images/third-white-icon.png);
 }
 
-.service-item:hover .third-service-icon {
+.service-item .iconx .fa-people-arrows {
     background-image: url(../images/third-main-icon.png);
 }
 
@@ -552,7 +552,7 @@ padding-top:25px;
     background-image: url(../images/fourth-white-icon.png);
 }
 
-.service-item:hover .fourth-service-icon {
+.service-item .iconx .fa-people-arrows{
     background-image: url(../images/fourth-main-icon.png);
 }
 
@@ -864,6 +864,11 @@ li:nth-child(2) {
     color: black;
    font-weight: 1000;
   }
+  .hover-demo{margin-top: 220px;}
+.hover-demo{text-align: center;}
+.on-hover-content{position: absolute;bottom: 40px;background-color: whitesmoke;padding: 10px;border-radius: 10px;}
+.on-hover-content img{width:360px;}
+#dynamic-content{width: 360px;overflow: scroll;}
   .maind{
     position: absolute;
     top: 180px;
