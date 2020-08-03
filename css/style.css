@@ -531,8 +531,8 @@ padding-top:25px;
 
  .service-item .fa-people-arrows {
     /*background-image: url(../images/second-white-icon.png);*/
-    background: transparent;
-  color: black;
+    background: black;
+  color: blue;
 size:40px;
 }
 
