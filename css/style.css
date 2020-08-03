@@ -529,11 +529,11 @@ padding-top:25px;
     background-image: url(../images/first-main-icon.png);
 }
 
- .service-item .fa-people-arrows {
+ .service-item .second-service-icon .fa-people-arrows {
     /*background-image: url(../images/second-white-icon.png);*/
     color: #fff;
   background: black;
-  size: 30px;
+  size: 60px;
 }
 
 .service-item:hover .second-service-icon {
