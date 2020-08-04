@@ -1306,6 +1306,7 @@ background: linear-gradient(#5e01aa,#e95bef);
   position: absolute;
   top: 375px;
   left: 820px;
+  background: #89cb66;
   /*border: 2px solid black;*/
 }
 .credits
@@ -1348,7 +1349,7 @@ left: 43;
  body, html {
    height: 100%;
 }
- body {
+ /*body {
    padding: 0;
    margin: 0;
    display: flex;
@@ -1356,7 +1357,7 @@ left: 43;
    align-items: center;
    background: #89cb66;
    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-}
+}*/
  .focus {
    font-size: 3rem;
    text-transform: uppercase;
