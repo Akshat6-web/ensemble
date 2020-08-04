@@ -1302,50 +1302,22 @@ background: linear-gradient(#5e01aa,#e95bef);
      transform: translateX(0px) rotateZ(-90deg);
   }
 }
-@import "compass";
-
-body {
-  background: #FED75A;
-  overflow: hidden;
-}
-
-figure { 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-}
-
-svg {
-  padding: 5vw;
-  width: 90vw;
-}
-
-svg > * { 
-  fill: #1C1C1C;
-  stroke: #1C1C1C;
-  stroke-width: 0.85px;
-}
-
-/* hover tip */
-
-body:hover:after {
-  content: "Hover to Slow Motion";
+1{
   position: absolute;
-  left: 0; right: 0; bottom: 1vh;
-  color: #1C1C1C;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  font: 700 9px/14px Tahoma, sans-serif;
-  @include animation(tip 2.5s forwards);
+  to.textp: 375px;
+  left: 820px;
+  /*border: 2px solid black;*/
 }
+.text1 p{
+  color: #000000;
 
-@include keyframes(tip) {
-  0%, 100% { opacity: 0; }
-  10%, 80% { opacity: 1; }
-}.credits
+  font-size: 20px;
+  text-align: left;
+  word-spacing: 1.2em;
+  font-weight: 1000;
+
+}
+.credits
 {
 position: absolute;
 bottom: 70px;
@@ -1363,3 +1335,34 @@ left: 43;
 .credits a:hover{
   color: white;
 }
+.text1 p {
+  border-right: solid 5px rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: rgba(255,255,255,.70);
+}
+
+/* Animation */
+.text1 p {
+  animation: animated-text 4s linear 1s 1 normal both,
+             animated-cursor 600ms linear infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 456px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+
