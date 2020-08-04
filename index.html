@@ -472,20 +472,7 @@ anime.timeline({loop: true})
             </div>
             <a type="button" class="btn btn-primary">An Image with text</a>
            </div>
-           <script type="text/javascript">
-      $(document).ready(function(){
-          $("div.on-hover-content").hide();
-      });
 
-      $(".btn").mouseenter(function(){
-        $(this).siblings("div.on-hover-content").fadeToggle( "slow", "linear" );
-      })
-      .mouseleave(function(){
-         
-        $(this).siblings("div.on-hover-content").fadeToggle( "slow", "linear" );
-      });
-
-    </script>
         </div>
 
 			  <div class="sided">
@@ -581,4 +568,18 @@ The aims of the teaching and learning of this workshop are to encourage and enab
 		<script type="text/javascript" src="https://unpkg.com/rangeable@latest/dist/rangeable.min.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
 	</body>
+	<script type="text/javascript">
+      $(document).ready(function(){
+          $("div.on-hover-content").hide();
+      });
+
+      $(".btn").mouseenter(function(){
+        $(this).siblings("div.on-hover-content").fadeToggle( "slow", "linear" );
+      })
+      .mouseleave(function(){
+         
+        $(this).siblings("div.on-hover-content").fadeToggle( "slow", "linear" );
+      });
+
+    </script>
 </html>
