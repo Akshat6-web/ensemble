@@ -1368,7 +1368,7 @@ left: 43;
    width: 450px;
 }
  .focus:before {
-   content: 'Focus';
+   content: 'Creating ideas that will create more ideas';
    filter: blur(3px);
 }
  .focus:after {
