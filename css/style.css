@@ -511,7 +511,7 @@ padding-top:25px;
     color: #4a4a4a;
 }
 
-.service-item .icon1 {
+.service-item .icon1,.icon2,.icon3,.icon4; {
     width: 70px;
     height: 70px;
     display: inline-block;
