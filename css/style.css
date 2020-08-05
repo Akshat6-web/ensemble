@@ -511,7 +511,34 @@ padding-top:25px;
     color: #4a4a4a;
 }
 
-.service-item .icon1,.icon2,.icon3,.icon4; {
+.service-item .icon1 {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.service-item .icon2{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.service-item .icon3 {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.service-item .icon4 {
     width: 70px;
     height: 70px;
     display: inline-block;
