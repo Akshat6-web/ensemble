@@ -1304,7 +1304,7 @@ background: linear-gradient(#5e01aa,#e95bef);
 }
 .text1{
   position: absolute;
-  top: 375px;
+  top: 0px;
   left: 820px;
   height: 100vh;
   display: flex;
@@ -1313,13 +1313,7 @@ background: linear-gradient(#5e01aa,#e95bef);
   
   border: 2px solid black;
 }
-.wrapper1 {
 
-  position: absolute;
-  top: 375px;
-  left: 0;
-  
-}
 
 .typing-demo {
   width: 43ch;
