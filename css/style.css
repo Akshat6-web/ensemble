@@ -1304,14 +1304,14 @@ background: linear-gradient(#5e01aa,#e95bef);
 }
 .text1{
   position: absolute;
-  top: 0px;
+  top: 35px;
   left: 820px;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   
-  border: 2px solid black;
+ 
 }
 
 
