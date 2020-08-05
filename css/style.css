@@ -1365,7 +1365,7 @@ left: 43;
    letter-spacing: 0.2rem;
    line-height: 1;
    position: relative;
-   width: 550px;
+   width: 700px;
 }
  .focus:before {
    content: 'Creating ideas that will create more ideas';
@@ -1374,7 +1374,7 @@ left: 43;
  .focus:after {
    content: '';
    position: absolute;
-   width: 50px;
+   width: 250px;
    height: calc(100% + 8px);
    top: -4px;
    left: 0;
