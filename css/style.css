@@ -1305,7 +1305,7 @@ background: linear-gradient(#5e01aa,#e95bef);
 .text1{
   position: absolute;
   top: 375px;
-  left: 820px;
+  left: 800px;
   background: #89cb66;
   /*border: 2px solid black;*/
 }
@@ -1365,7 +1365,7 @@ left: 43;
    letter-spacing: 0.2rem;
    line-height: 1;
    position: relative;
-   width: 179px;
+   width: 450px;
 }
  .focus:before {
    content: 'Focus';
