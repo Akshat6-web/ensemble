@@ -521,20 +521,16 @@ padding-top:25px;
     transition: all 0.5s;
 }
 
-.service-item .iconx .fa-people-arrows {
-    background-image: url(../images/first-white-icon.png);
+.service-item .icon1 {
+    background: red;
+    color: black;
 }
 
-.service-item .iconx .fa-people-arrows {
+.service-item .icon1  {
     background-image: url(../images/first-main-icon.png);
 }
 
- .service-item .iconx .fa-people-arrows {
-    /*background-image: url(../images/second-white-icon.png);*/
-    color: #fff;
-  background: black;
-  size: 60px;
-}
+ 
 
 .service-item .iconx .fa-people-arrows {
     background-image: url(../images/second-main-icon.png);
@@ -1324,6 +1320,7 @@ background: linear-gradient(#5e01aa,#e95bef);
   font-family: monospace;
   font-size: 2em;
 }
+
 
 @keyframes typing {
   from {
