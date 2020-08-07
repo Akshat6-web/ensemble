@@ -47,7 +47,9 @@ section {
   background-repeat: no-repeat;
   }
 #page-5 .text2{
-  background-color: #E7FFAC;
+  font-family: Arial;
+  font-size: 16px;
+  background: #5e42a6;
 }
 #page-6 .text2, #page-6-clone .text {
   background-color: #4CAF50;
@@ -853,11 +855,6 @@ li:nth-child(2) {
     font-size: 20px;
     text-align: center;
     background-color: ;
-    
-   
-
-  
-
   }
   .sided h1{
     color: black;
@@ -1001,7 +998,7 @@ span a {
   box-sizing: border-box;
   text-align: center;
 }
-.panel5{
+/*.panel5{
   width:300px;
   height: 70%;
   position: absolute;
@@ -1051,7 +1048,7 @@ padding:25px;
   font-size: 25px;
   text-decoration: none;
   /*border: 1px solid black;*/
-  color: black;
+ /* color: black;
 
 }
 .list5 ul li p:hover{
@@ -1076,6 +1073,98 @@ transition: 0.5s;
   padding-bottom: .3em;
   text-decoration: none;
 }*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+
+.sidebar5 {
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  background: #312450;
+  font-size: 0.65em;
+}
+
+.nav5 {
+  position: relative;
+  margin: 0 15%;
+  text-align: right;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-weight: bold;
+}
+
+.nav5 ul {
+  list-style: none;
+}
+.nav5 ul li {
+  position: relative;
+  margin: 3.2em 0;
+}
+.nav5 ul li a {
+  line-height: 5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.4em;
+  color: rgba(255, 255, 255, 0.35);
+  display: block;
+  -webkit-transition: all ease-out 300ms;
+  transition: all ease-out 300ms;
+}
+.nav5 ul li.active a {
+  color: white;
+}
+.nav5 ul li:not(.active)::after {
+  opacity: 0.2;
+}
+.nav5 ul li:not(.active):hover a {
+  color: rgba(255, 255, 255, 0.75);
+}
+.nav5 ul li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.2em;
+  background: black;
+  left: 0;
+  bottom: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#5e42a6), to(#b74e91));
+  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+}
+
+.twitter {
+  position: relative;
+  width: 75%;
+  float: right;
+  height: 100vh;
+}
+.twitter .container5 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+.twitter a {
+  position: relative;
+}
+.twitter a img {
+  width: 48px;
+  height: 48px;
+}
+.twitter p {
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 20px;
+}
 
 
 
