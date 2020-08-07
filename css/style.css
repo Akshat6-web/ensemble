@@ -1081,8 +1081,7 @@ transition: 0.5s;
    width: 1px;
    height: 1px;
 }
- body {
-   background: #111;
+ 
 }
  div {
    box-sizing: border-box;
