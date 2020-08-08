@@ -366,15 +366,20 @@ button:hover::before, button:focus::before {
   position: absolute;
   top: 425px;
   left: 900px;
-  width: 42ch;
-  animation: typing 2s steps(42), blink .5s step-end infinite alternate;
+  width: 43ch;
+  animation: typing 3s steps(43), blink .35s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 2em;
+  /*font-size: 2em;*/
 }
+.typing-demo p{
+  font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 
+}
 @keyframes typing {
   from {
     width: 0
