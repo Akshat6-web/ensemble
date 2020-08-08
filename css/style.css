@@ -151,6 +151,9 @@ section {
   background: #000000;
   content: "";
 }
+.anchors ul li a:hover{
+  background-color: gray;
+}
 
 .text {
   width: 100%;
@@ -361,7 +364,7 @@ button:hover::before, button:focus::before {
 
 .typing-demo {
   position: absolute;
-  top: 410px;
+  top: 425px;
   left: 900px;
   width: 45ch;
   animation: typing 2s steps(45), blink .5s step-end infinite alternate;
