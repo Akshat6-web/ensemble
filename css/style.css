@@ -361,8 +361,8 @@ button:hover::before, button:focus::before {
 
 .typing-demo {
   position: absolute;
-  top: 500px;
-  left: 1100px;
+  top: 375px;
+  left: 980px;
   width: 45ch;
   animation: typing 2s steps(45), blink .5s step-end infinite alternate;
   white-space: nowrap;
