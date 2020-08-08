@@ -552,23 +552,19 @@ nav ul li:hover a span {
 }
 
 .service-item .first-service-icon {
-    background-image: url(../images/first-white-icon.png);
+    background-image: url(../images/service-1.png);
 }
 
-.service-item:hover .first-service-icon {
-    background-image: url(first-main-icon.png);
-}
+
 
 .service-item .second-service-icon {
-    background-image: url(second-white-icon.png);
+    background-image: url(service-2.png);
 }
 
-.service-item:hover .second-service-icon {
-    background-image: url(second-main-icon.png);
-}
+
 
 .service-item .third-service-icon {
-    background-image: url(third-white-icon.png);
+    background-image: url(service-3.png);
 }
 
 .service-item:hover .third-service-icon {
@@ -576,12 +572,10 @@ nav ul li:hover a span {
 }
 
 .service-item .fourth-service-icon {
-    background-image: url(fourth-white-icon.png);
+    background-image: url(service-4.png);
 }
 
-.service-item:hover .fourth-service-icon {
-    background-image: url(fourth-main-icon.png);
-}
+
 
 
 .heading2{
@@ -1074,8 +1068,4 @@ background: linear-gradient(#5e01aa,#e95bef);
      opacity: 0;
      transform: translateX(0px) rotateZ(-90deg);
   }
-}
-.fa-handshake{
-  background-color: black;
-  color: blue;
 }
