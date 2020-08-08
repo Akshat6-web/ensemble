@@ -558,21 +558,19 @@ nav ul li:hover a span {
 
 
 .service-item .second-service-icon {
-    background-image: url(service-2.png);
+    background-image: url(../images/service-2.png);
 }
 
 
 
 .service-item .third-service-icon {
-    background-image: url(service-3.png);
+    background-image: url(..images/service-3.png);
 }
 
-.service-item:hover .third-service-icon {
-    background-image: url(third-main-icon.png);
-}
+
 
 .service-item .fourth-service-icon {
-    background-image: url(service-4.png);
+    background-image: url(../images/service-4.png);
 }
 
 
