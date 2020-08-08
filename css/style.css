@@ -366,8 +366,8 @@ button:hover::before, button:focus::before {
   position: absolute;
   top: 425px;
   left: 900px;
-  width: 52ch;
-  animation: typing 3s steps(52), blink .35s step-end infinite alternate;
+  width: 59ch;
+  animation: typing 3s steps(59), blink .35s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
