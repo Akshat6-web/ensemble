@@ -374,7 +374,7 @@ button:hover::before, button:focus::before {
   
   
 }
-.typing-demo p{
+.typing-demo h2{
   font-size: 1.75em;
   font: 'Great Vibes', Helvetica, sans-serif;
   color: black;
