@@ -377,7 +377,7 @@ button:hover::before, button:focus::before {
 .typing-demo p{
   font-size: 1.75em;
   font: 'Great Vibes', Helvetica, sans-serif;
-  color: gray;
+  color: black;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 
 }
