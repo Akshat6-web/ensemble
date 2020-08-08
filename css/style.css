@@ -1075,3 +1075,7 @@ background: linear-gradient(#5e01aa,#e95bef);
      transform: translateX(0px) rotateZ(-90deg);
   }
 }
+.fa-handshake{
+  background-color: black;
+  color: blue;
+}
