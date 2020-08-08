@@ -371,8 +371,8 @@ button:hover::before, button:focus::before {
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-family: monospace;
-  /*font-size: 2em;*/
+  
+  font-size: 2em;
 }
 .typing-demo p{
   font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
