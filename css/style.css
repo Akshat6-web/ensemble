@@ -475,64 +475,81 @@ nav ul li:hover a span {
   left: 47%;
   top: 15%;
 }
-.grid-container {
-  width:100%;
-  height: 450px;
-  display: flex;
-  box-sizing: border-box;
-  position: absolute;
-  top: 62%;
-  transform: translateY(-50%);
+.my-services .col-md-6 {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.grid-item {
-  width: auto;
-  text-align: center;
-  line-height: 200px;
-  flex-grow: 1;
-  transition:0.5s;
-  font-size: 30px;
-  padding: 20px;
-  /*border: 1px solid black;*/
+.service-item {
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: rgba(250, 250, 250, 0.1);
+    transition: all 0.5s;
+}
 
+.service-item h4 {
+    transition: all 0.5s;
 }
-.grid-item:hover
-{
-  flex-grow: 4;
-  max-width: 100%
-  font-size: 60px;
-  background: white;
-}
-.grid-container .grid-item:nth-child(1)
-{
-  background:#f1c40f;
-}
-.grid-container .grid-item h1{
-  color: black;
-  font-size: 30px;
-  text-align: left;
-}
-.grid-container .grid-item p{
 
-  color: black;
-  font-size: 20px;
-  text-align: left;
-  position: absolute;
-  top: 65px;
+.service-item p {
+    transition: all 0.5s;
+}
 
+.service-item:hover {
+    background-color: rgba(250, 250, 250, 1);
 }
-.grid-container .grid-item:nth-child(2)
-{
-  background:#9b59b6;
+
+.service-item:hover h4 {
+    color: #1e1e1e;
 }
-.grid-container .grid-item:nth-child(3)
-{
-  background:#95a5a6;
+
+.service-item:hover p {
+    color: #4a4a4a;
 }
-.grid-container .grid-item:nth-child(4)
-{
-  background:#16a085;
+
+.service-item .service-icon {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
 }
+
+.service-item .first-service-icon {
+    background-image: url(../images/first-white-icon.png);
+}
+
+.service-item:hover .first-service-icon {
+    background-image: url(first-main-icon.png);
+}
+
+.service-item .second-service-icon {
+    background-image: url(second-white-icon.png);
+}
+
+.service-item:hover .second-service-icon {
+    background-image: url(second-main-icon.png);
+}
+
+.service-item .third-service-icon {
+    background-image: url(third-white-icon.png);
+}
+
+.service-item:hover .third-service-icon {
+    background-image: url(third-main-icon.png);
+}
+
+.service-item .fourth-service-icon {
+    background-image: url(fourth-white-icon.png);
+}
+
+.service-item:hover .fourth-service-icon {
+    background-image: url(fourth-main-icon.png);
+}
+
+
 .heading2{
   position: absolute;
   top: 115px;
