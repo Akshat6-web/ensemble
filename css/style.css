@@ -1128,3 +1128,9 @@ background: linear-gradient(#5e01aa,#e95bef);
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.head3{
+  position: absolute;
+  top: 25px;
+  left: 45%;
+  border: 2px solid black;
+}
