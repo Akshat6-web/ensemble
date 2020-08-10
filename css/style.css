@@ -1136,12 +1136,12 @@ background: linear-gradient(#5e01aa,#e95bef);
 }
 .head3 {
   width: 500px;
-  height: 150px;
+  height: 100px;
    background: linear-gradient(45deg, rgba(45, 45, 45, 1) 9%, rgba(0, 0, 0, 1) 100%);
    }
  .head3 h1 {
    font-family: 'CoreCircus', sans-serif;
-   font-size: 5vw;
+   font-size: 3vw;
    text-align: left;
    line-height: 1;
    margin: 0;
