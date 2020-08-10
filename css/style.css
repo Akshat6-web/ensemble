@@ -1135,6 +1135,8 @@ background: linear-gradient(#5e01aa,#e95bef);
   border: 2px solid black;
 }
 .head3 {
+  width: 150px;
+  height: 150px;
    background: linear-gradient(45deg, rgba(45, 45, 45, 1) 9%, rgba(0, 0, 0, 1) 100%);
    }
  .head3 h1 {
@@ -1144,7 +1146,7 @@ background: linear-gradient(#5e01aa,#e95bef);
    line-height: 1;
    margin: 0;
    top: 50%;
-   left: 50%;
+   left: 51%;
    transform: translate(-50%, -50%);
    position: absolute;
    color: rgba(45, 45, 45, 1);
