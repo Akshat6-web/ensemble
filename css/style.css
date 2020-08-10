@@ -1146,7 +1146,7 @@ background: linear-gradient(#5e01aa,#e95bef);
    line-height: 1;
    margin: 0;
    top: 50%;
-   left: 51%;
+   left: 20%;
    transform: translate(-50%, -50%);
    position: absolute;
    color: rgba(45, 45, 45, 1);
