@@ -1135,8 +1135,8 @@ background: linear-gradient(#5e01aa,#e95bef);
   border: 2px solid black;
 }
 .head3 {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
    background: linear-gradient(45deg, rgba(45, 45, 45, 1) 9%, rgba(0, 0, 0, 1) 100%);
    }
  .head3 h1 {
