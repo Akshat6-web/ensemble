@@ -1142,7 +1142,7 @@ background: linear-gradient(#5e01aa,#e95bef);
  .head3 h1 {
    font-family: 'CoreCircus', sans-serif;
    font-size: 5vw;
-   text-align: center;
+   text-align: left;
    line-height: 1;
    margin: 0;
    top: 50%;
