@@ -1250,14 +1250,19 @@ figure.snip0015 h2 {
   transform: translate3d(0%, 50%, 0);
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
-}
-figure.snip0015 h2 span {
-  font-weight: 800;
-  position: relative;
+position: relative;
   top: 2px;
   left: 2px;
 }
+
+figure.snip0015 h2 span {
+  font-weight: 800;
+
+}
 figure.snip0015 p {
+  position: relative;
+  top: 2px;
+  left: 2px;
   font-weight: 200  ;
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
@@ -1271,7 +1276,7 @@ figure.snip0015 a {
   color: #ffffff;
 }
 figure.snip0015:hover img {
-  opacity: 0.35;
+  opacity: 0.8;
 }
 figure.snip0015:hover figcaption h2 {
   opacity: 1;
