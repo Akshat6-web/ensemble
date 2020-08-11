@@ -1185,6 +1185,7 @@ background: linear-gradient(#5e01aa,#e95bef);
    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot');
    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.ttf') format('truetype');
 }
+
 *{
 box-sizing: border-box;
 }
@@ -1193,6 +1194,9 @@ box-sizing: border-box;
 .panel{
 width: 400px;
 height: 350px;
+position: absolute;
+top: 30px;
+left: 20px;
 overflow: hidden;
 margin: 5px;
 border: 1px solid #000;
