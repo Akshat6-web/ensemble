@@ -1192,7 +1192,7 @@ box-sizing: border-box;
 
 /* Image Panel or Container */
 .panel{
-width: 400px;
+width: 350px;
 height: 350px;
 position: absolute;
 top: 30px;
