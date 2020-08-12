@@ -1247,37 +1247,37 @@ background: #CCFFCC;
 float: right;
 border-radius: 3px;
 }
-.btn a{
+img .btn a{
 color: #333333;
 text-decoration: none;
 }
 
 /* Overlay Styles - Ensure to use panel class dimensions */
-.left{
+img .left{
 left: -400px;
 }
-.right{
+img .right{
 right: -400px;
 }
-.top{
+img .top{
 top: -350px;
 }
-.bottom{
+img .bottom{
 bottom: -350px;
 }
-.top-left{
+img.top-left{
 top: -350px;
 left: -400px;
 }
-.top-right{
+img .top-right{
 top: -350px;
 right: -400px;
 }
-.bottom-left{
+img .bottom-left{
 bottom: -350px;
 left: -400px;
 }
-.bottom-right{
+img .bottom-right{
 bottom: -350px;
 right: -400px;
 }
