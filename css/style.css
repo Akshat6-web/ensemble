@@ -1191,7 +1191,7 @@ box-sizing: border-box;
 }
 
 /* Image Panel or Container */
-.panel{
+.panel img{
 width: 350px;
 height: 350px;
 position: absolute;
