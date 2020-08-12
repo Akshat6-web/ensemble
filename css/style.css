@@ -1207,7 +1207,7 @@ margin-bottom: 60px;
 }
 
 /* Image Overlay */
-.overlay{
+img .overlay{
 width: 100%;
 height: 100%;
 background: rgba(0,0,0,0.45);
@@ -1223,7 +1223,7 @@ text-shadow: 1px 1px 5px #673AB7;
 }
 
 /* Overlay Heading or Title */
-.overlay .heading{
+img .overlay .heading{
 font-size: 30px;
 font-style: italic;
 text-align: center;
@@ -1240,7 +1240,7 @@ overflow: hidden;
 }
 
 /* Overlay Button */
-.overlay .btn{
+img .overlay .btn{
 padding: 10px;
 margin: 10px;
 background: #CCFFCC;
