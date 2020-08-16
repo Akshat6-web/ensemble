@@ -1208,7 +1208,7 @@ background: linear-gradient(#5e01aa,#e95bef);
   float: left;
   width: 50%;
   position: absolute;
-  left: 5px;
+  left: 0px;
   top: 20px;
 }
 @media screen and (max-width: 640px){
