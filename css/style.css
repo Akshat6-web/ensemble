@@ -1284,7 +1284,7 @@ background: linear-gradient(#5e01aa,#e95bef);
   opacity: 1;
 }
 
-.content-details h3{
+.content-details .content-title h3{
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.15em;
@@ -1292,7 +1292,7 @@ background: linear-gradient(#5e01aa,#e95bef);
   text-transform: uppercase;
 }
 
-.content-details p{
+.content-details .content-text p{
   color: #fff;
   font-size: 0.8em;
 }
