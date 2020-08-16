@@ -649,7 +649,7 @@ text-decoration: underline;
     width: 200px;
     height: 350px;
     position: absolute;
-    top: 315px;
+    top: 360px;
     left: 30px;
     font-size: 20px;
     text-align: center;
@@ -659,7 +659,7 @@ text-decoration: underline;
   .maind{
     position: absolute;
     top: 160px;
-    left: 450px;
+    left: 480px;
     /*border: 2px solid black;*/
     width: 1000px;
     height: 500px;
