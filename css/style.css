@@ -658,16 +658,16 @@ text-decoration: underline;
   }
   .maind{
     position: absolute;
-    top: 180px;
+    top: 160px;
     left: 420px;
     /*border: 2px solid black;*/
-    width: 1100px;
+    width: 1000px;
     height: 500px;
     
 
   }
   .maind p{
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     margin: 5px;
     overflow: hidden;
