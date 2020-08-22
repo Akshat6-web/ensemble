@@ -1142,7 +1142,7 @@ background: linear-gradient(#5e01aa,#e95bef);
    text-align: center;
    margin: 0;
 }
- p {
+ .text2 p {
    text-transform: uppercase;
    letter-spacing: 0.5em;
    display: inline-block;
@@ -1155,7 +1155,7 @@ background: linear-gradient(#5e01aa,#e95bef);
    width: 40em;
    margin: 0 0 0 -20em;
 }
- p span {
+ .text2 p span {
    font: 700 4em "Oswald", sans-serif;
    letter-spacing: 0;
    padding: 0.25em 0 0.325em;
