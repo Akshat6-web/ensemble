@@ -645,6 +645,10 @@ text-decoration: underline;
 {
   background:#95a5a6;
 }
+.text4{
+  background-image: url('../images/overview.jpg');
+  background-repeat: no-repeat;
+}
   .sided{
     width: 200px;
     height: 350px;
@@ -1151,7 +1155,7 @@ background: linear-gradient(#5e01aa,#e95bef);
    padding: 1.5em 0em;
    position: absolute;
    top: 10%;
-   left: 45%;
+   left: 47.5%;
    width: 40em;
    margin: 0 0 0 -20em;
 }
