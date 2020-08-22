@@ -1138,9 +1138,12 @@ background: linear-gradient(#5e01aa,#e95bef);
 .text2{
    font: 400 1em/1.5 "Neuton";
    background: #090d00;
-   color: black;
+   color: rgba(255, 255, 255, .25);
    text-align: center;
    margin: 0;
+   position: absolute;
+   left:40%;
+  top:15%;
 }
  .text2 p {
    text-transform: uppercase;
