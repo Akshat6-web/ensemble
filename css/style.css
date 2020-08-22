@@ -1135,62 +1135,77 @@ background: linear-gradient(#5e01aa,#e95bef);
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.head3{
+.slashed{
   position: absolute;
   top: 125px;
   left: 35%;
   border: 2px solid black;
+
 }
-.head3 {
-  width: 380px;
-  height: 100px;
-   background: linear-gradient(45deg, rgba(45, 45, 45, 1) 9%, rgba(0, 0, 0, 1) 100%);
-   }
- .head3 h1 {
-   font-family: 'CoreCircus', sans-serif;
-   font-size: 3vw;
-   text-align: left;
-   line-height: 1;
-   margin: 0;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   position: absolute;
-   color: white;
-   letter-spacing: -0.5rem;
+
+.slashed {
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  background: -webkit-radial-gradient(center, #dc143c, #580818);
+  background: -moz-radial-gradient(center, #dc143c, #580818);
+  background: -o-radial-gradient(center, #dc143c, #580818);
+  background: -ms-radial-gradient(center, #dc143c, #580818);
+  background: radial-gradient(center, #dc143c, #580818);
 }
- .head3 h1:before {
-   content: attr(data-heading);
-   position: absolute;
-   overflow: hidden;
-   color: #fc0;
-   width: 100%;
-   z-index: 5;
-   text-shadow: none;
-   left: 27%;
-   text-align: left;
-   animation: flicker 3s linear infinite;
+.slashed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 }
- @keyframes flicker {
-   0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
-     opacity: 0.99;
-     text-shadow: -1px -1px 0 rgba(255, 255, 255, .4), 1px -1px 0 rgba(255, 255, 255, .4), -1px 1px 0 rgba(255, 255, 255, .4), 1px 1px 0 rgba(255, 255, 255, .4), 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #f44, 0 0 2px #ff7e00, 0 2px 3px #000;
-  }
-   20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
-     opacity: 0.4;
-     text-shadow: none;
-  }
+.slashed .top,
+.slashed .bot {
+  text-align: center;
+  font: 62px/100px arial;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
 }
-/* * Webfont: CoreCircus by S-Core * URL: http://www.myfonts.com/fonts/s-core/core-circus/regular/ * Copyright: Copyright (c) 2013 by S-Core Co., Ltd.. All rights reserved. * Licensed pageviews: 10,000 * * Webfont: CoreCircus2DDot1 by S-Core * URL: http://www.myfonts.com/fonts/s-core/core-circus/dot1/ * Copyright: Copyright (c) 2013 by S-Core Co., Ltd.. All rights reserved. * Licensed pageviews: 10,000 */
- @font-face {
-   font-family: 'CoreCircus2DDot1';
-   src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.eot');
-   src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.ttf') format('truetype');
+.slashed .top:before,
+.slashed .bot:before {
+  content: attr(title);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
 }
- @font-face {
-   font-family: 'CoreCircus';
-   src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot');
-   src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot?#iefix') format('embedded-opentype'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff2') format('woff2'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff') format('woff'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.ttf') format('truetype');
+.slashed .top {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  right: 0;
+  bottom: 50%;
+}
+.slashed .top:before {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+}
+.slashed .bot {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 5px;
+  bottom: 0;
+}
+.slashed .bot:before {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
