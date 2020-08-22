@@ -1135,81 +1135,54 @@ background: linear-gradient(#5e01aa,#e95bef);
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.slashed{
-  position: absolute;
-  top: 125px;
-  left: 500px;
-  border: 2px solid black;
-  width: 300px;
-  height: 150px;
-
+body {
+   font: 400 1em/1.5 "Neuton";
+   background: #090d00;
+   color: rgba(255, 255, 255, .25);
+   text-align: center;
+   margin: 0;
 }
-
- .slashed{
-  -webkit-transform: rotate(-5deg);
-  -moz-transform: rotate(-5deg);
-  -o-transform: rotate(-5deg);
-  -ms-transform: rotate(-5deg);
-  transform: rotate(-5deg);
-  background: -webkit-radial-gradient(center, #dc143c, #580818);
-  background: -moz-radial-gradient(center, #dc143c, #580818);
-  background: -o-radial-gradient(center, #dc143c, #580818);
-  background: -ms-radial-gradient(center, #dc143c, #580818);
-  background: radial-gradient(center, #dc143c, #580818);
+ p {
+   text-transform: uppercase;
+   letter-spacing: 0.5em;
+   display: inline-block;
+   border: 4px double rgba(255, 255, 255, .25);
+   border-width: 4px 0;
+   padding: 1.5em 0em;
+   position: absolute;
+   top: 18%;
+   left: 50%;
+   width: 40em;
+   margin: 0 0 0 -20em;
 }
-.slashed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+ p span {
+   font: 700 4em "Oswald", sans-serif;
+   letter-spacing: 0;
+   padding: 0.25em 0 0.325em;
+   display: block;
+   margin: 0 auto;
+   text-shadow: 0 0 80px rgba(255, 255, 255, .5);
+  /* Clip Background Image */
+   background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+   -webkit-background-clip: text;
+   background-clip: text;
+  /* Animate Background Image */
+   -webkit-text-fill-color: transparent;
+   -webkit-animation: aitf 80s linear infinite;
+  /* Activate hardware acceleration for smoother animations */
+   -webkit-transform: translate3d(0, 0, 0);
+   -webkit-backface-visibility: hidden;
 }
-.slashed .top,
-.slashed .bot {
-  text-align: center;
-  font: 62px/100px arial;
-  text-transform: uppercase;
-  text-align: center;
-  overflow: hidden;
-  color: #fff;
+/* Animate Background Image */
+ @-webkit-keyframes aitf {
+   0% {
+     background-position: 0% 50%;
+  }
+   100% {
+     background-position: 100% 50%;
+  }
 }
-.slashed .top:before,
-.slashed .bot:before {
-  content: attr(title);
-  -webkit-transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
-  -o-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  transform: rotate(5deg);
-}
-.slashed .top {
-  position: absolute;
-  top: 0;
-  left: 5px;
-  right: 0;
-  bottom: 50%;
-}
-.slashed .top:before {
-  position: absolute;
-  bottom: -50px;
-  left: 0;
-  right: 0;
-}
-.slashed .bot {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 5px;
-  bottom: 0;
-}
-.slashed .bot:before {
-  position: absolute;
-  top: -50px;
-  left: 0;
-  right: 0;
-}
-
+ 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 *, *:before, *:after{
