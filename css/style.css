@@ -1101,7 +1101,7 @@ background: linear-gradient(#5e01aa,#e95bef);
   width: 300px;
   height: 300px;
   position: absolute;
-  top:0; left: 0;
+  top:-50%; left: 0;
   right: 0; bottom: 0;
 }
 
