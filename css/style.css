@@ -1111,7 +1111,7 @@ background: linear-gradient(#5e01aa,#e95bef);
 }
 
 .left {
-  background: #27ae60;
+  background-image: url('../images/stickerad.png');
 }
 
 .center {
