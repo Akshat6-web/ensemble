@@ -1098,10 +1098,9 @@ background: linear-gradient(#5e01aa,#e95bef);
   box-shadow: 0 25px 80px 0 rgba(0, 0, 0, 0.6);
 }
 .card img{
-  background-repeat: none;
   width: 300px;
   height: 300px;
-  position: relative;
+  position: absolute;
   top:0; left: 0;
   right: 0; bottom: 0;
 }
