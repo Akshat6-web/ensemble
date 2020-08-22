@@ -1102,6 +1102,7 @@ background: linear-gradient(#5e01aa,#e95bef);
   height: 300px;
   position: absolute;
   top:-150px;
+  left: 0;
 }
 
 .card:hover {
