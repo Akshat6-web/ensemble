@@ -1135,7 +1135,7 @@ background: linear-gradient(#5e01aa,#e95bef);
   transform: translate(-50%, -50%);
   text-align: center;
 }
-body {
+.text2{
    font: 400 1em/1.5 "Neuton";
    background: #090d00;
    color: rgba(255, 255, 255, .25);
