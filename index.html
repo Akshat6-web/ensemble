@@ -256,31 +256,30 @@ anime.timeline({loop: true})
 			<section data-anchor="Page 3">
 				<div class="text2">
 					<p>
-  <span>
-    Trending Now
-  </span>
-</p>
-					<div class="container3">
-	<div class="card left"><div class="text3"><img src="../images/stickerad.png"></div></div>
-	<div class="card center"><div class="text3">B</div></div>
-	<div class="card right"><div class="text3">C</div></div>
-</div>
+                        <span>
+                            Trending Now
+                        </span>
+                    </p>
+	<div class="container3">
+	            <div class="card left"><div class="text3"><img src="../images/stickerad.png"></div></div>
+	            <div class="card center"><div class="text3">B</div></div>
+	            <div class="card right"><div class="text3">C</div></div>
+    </div>
 
 
 	
 
                 </div>
 			</section>
-			<script type="text/javascript">
-
-  document.addEventListener("DOMContentLoaded", function() {
-
-    var rotateComplete = function() {
-      target.style.webkitAnimationName = "";
-      target.insertBefore(arr[arr.length-1], arr[0]);
-      setTimeout(function(el) {
-        el.style.webkitAnimationName = "rotator";
-      }, 0, target);
+<script type="text/javascript">
+         document.addEventListener("DOMContentLoaded", function() {
+  
+         var rotateComplete = function() {
+         target.style.webkitAnimationName = "";
+         target.insertBefore(arr[arr.length-1], arr[0]);
+         setTimeout(function(el) {
+         el.style.webkitAnimationName = "rotator";
+         }, 0, target);
     };
 
     var target = document.getElementById("rotator");
