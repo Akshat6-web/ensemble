@@ -39,8 +39,8 @@ section {
 #page-3 .text2 {
   background-color: #FFFFFF;
 }
-#page-4 .text2 {
-  background-color: #E91E63;
+#page-4 .text4 {
+ background-image: url('../images/overview.jpg');
 }
 #page-5 .text2{
   background-color: #F44336;
@@ -646,7 +646,7 @@ text-decoration: underline;
   background:#95a5a6;
 }
 .text4{
-  background-image: url('../images/overview.jpg');
+  
   background-repeat: no-repeat;
 }
   .sided{
