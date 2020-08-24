@@ -41,6 +41,7 @@ section {
 }
 #page-4 .text2 {
  background-image: url('../images/overview.jpg');
+ background-size: 100% 100%;
 }
 #page-5 .text2{
   background-color: #F44336;
