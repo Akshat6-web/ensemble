@@ -654,14 +654,16 @@ text-decoration: underline;
     width: 200px;
     height: 350px;
     position: absolute;
-    top: 220px;
+    top: 360px;
     left: 30px;
     font-size: 20px;
     text-align: center;
   }
   .sided h1{
     color: black;
-   
+    position: absolute;
+   left: 0px;
+   top: -100px;
 
   }
   .maind{
