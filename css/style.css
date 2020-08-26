@@ -663,6 +663,10 @@ text-decoration: underline;
    top: -22px;
    font-size: 30px;
    font-weight: 300;
+   font-family: garamond;
+  src: url('garamond.ttf');
+}
+
 
   }
   .maind{
