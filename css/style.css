@@ -1215,6 +1215,8 @@ background: linear-gradient(#5e01aa,#e95bef);
 .container4 {
   position: relative;
   width: 50%;
+  top: 0;
+  left: 0;
 }
 
 .image {
