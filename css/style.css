@@ -660,7 +660,7 @@ text-decoration: underline;
     color: black;
     position: absolute;
    left: 0px;
-   top: -120px;
+   top: -70px;
 
   }
   .maind{
@@ -687,7 +687,7 @@ text-decoration: underline;
   size: 30px;
   position: absolute;
   left: 50px;
-  top: -15px;
+  top: 30px;
  }
  .agenda a {
   color: rgba(0,0,0,0.2);
