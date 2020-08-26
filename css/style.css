@@ -660,7 +660,7 @@ text-decoration: underline;
     color: black;
     position: absolute;
    left: 0px;
-   top: -145px;
+   top: -120px;
 
   }
   .maind{
@@ -687,7 +687,7 @@ text-decoration: underline;
   size: 30px;
   position: absolute;
   left: 50px;
-  top: -35px;
+  top: -15px;
  }
  .agenda a {
   color: rgba(0,0,0,0.2);
@@ -1212,8 +1212,8 @@ background: linear-gradient(#5e01aa,#e95bef);
 .container4 {
   position: absolute;
   width: 300px;
-  top: 0;
-  left: 0;
+  top: 15px;
+  left: 15px;
 }
 
 .container4 img{
