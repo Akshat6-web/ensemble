@@ -1213,7 +1213,7 @@ background: linear-gradient(#5e01aa,#e95bef);
   padding: 0.7em 0;
 }
 .container4 {
-  position: relative;
+  position: absolute;
   width: 50%;
   top: 0;
   left: 0;
