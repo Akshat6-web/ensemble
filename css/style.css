@@ -1216,11 +1216,9 @@ background: linear-gradient(#5e01aa,#e95bef);
   left: 0;
 }
 
-.image {
-  
+.container4 img{
   background-size: 300px 300px;
 }
-
 .overlay {
   position: absolute;
   top: 0;
