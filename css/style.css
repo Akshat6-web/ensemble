@@ -659,7 +659,7 @@ text-decoration: underline;
   .sided h1{
     color: black;
     position: absolute;
-   left: 30px;
+   left: 35px;
    top: -22px;
    font-size: 30px;
    font-weight: 300;
@@ -688,7 +688,7 @@ text-decoration: underline;
   background: black;
   size: 30px;
   position: absolute;
-  left: 80px;
+  left: 90px;
   top: 25px;
  }
  .agenda a {
