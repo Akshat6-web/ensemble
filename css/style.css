@@ -1218,7 +1218,7 @@ background: linear-gradient(#5e01aa,#e95bef);
 
 .image {
   
-  background-size: auto;
+  background-size: 300px 300px;
 }
 
 .overlay {
