@@ -660,7 +660,9 @@ text-decoration: underline;
     color: black;
     position: absolute;
    left: 0px;
-   top: -70px;
+   top: -40px;
+   font-size: 30px;
+   font-weight: 300;
 
   }
   .maind{
