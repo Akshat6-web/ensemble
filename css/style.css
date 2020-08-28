@@ -771,7 +771,7 @@ span a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to right,#f15229,#fcc247,#a7066c,#fb4a88,#5e01aa,#e95bef,#3362ad,#66cde6,#c8c8c8);
+  background-image: linear-gradient(to left,#f15229,#fcc247,#a7066c,#fb4a88,#5e01aa,#e95bef,#3362ad,#66cde6,#c8c8c8);
 
  
 
@@ -789,7 +789,7 @@ span a {
   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
   transform: translateY(0px);
   animation: float 6s ease-in-out infinite;
-   background-image: linear-gradient( #f15229,#fcc247);
+   background-image: linear-gradient( #3362ad,#66cde6);
 
 }
   img { width: 100%; height: auto; }
