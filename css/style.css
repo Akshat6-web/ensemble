@@ -771,10 +771,11 @@ span a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(#a7066c,#fb4a88,#5e01aa,#e95bef,#3362ad,#66cde6,#c8c8c8);
 
 }
 #page-6 body{
-  background-image: linear-gradient(#a7066c,#fb4a88,#5e01aa,#e95bef,#3362ad,#66cde6,#c8c8c8);
+
 }
 
 .avatar {
