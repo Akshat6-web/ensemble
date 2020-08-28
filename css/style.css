@@ -771,7 +771,12 @@ span a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: linear-gradient(#f15229,#fcc247,#a7066c,#fb4a88,#5e01aa,#e95bef,#3362ad, #66cde6,#c8c8c8);
+
+}
+.textx{
+  width: 100%;
+  height: 100%;
+  background-color: linear-gradient(#f15229,#fcc247,#a7066c,#fb4a88,#5e01aa,#e95bef,#3362ad,#66cde6,#c8c8c8);
 }
 
 .avatar {
