@@ -806,6 +806,8 @@ span a {
   position: absolute;
   top: 90%;
   left: 3%;
+  color: black;
+  font-weight: 800;
 } 
 .panel5{
   width:300px;
