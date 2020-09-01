@@ -659,7 +659,7 @@ text-decoration: underline;
   .sided h1{
     color: black;
     position: absolute;
-   left: 680px;
+   left: 780px;
    top: -300px;
    font-size: 30px;
    font-weight: 300;
@@ -1227,7 +1227,7 @@ background: linear-gradient(#5e01aa,#e95bef);
 .container4 {
   position: absolute;
   width: 300px;
-  top: 50px;
+  top: 120px;
   left: 15px;
 }
 
