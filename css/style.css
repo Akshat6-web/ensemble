@@ -661,8 +661,9 @@ text-decoration: underline;
     position: absolute;
    left: 780px;
    top: -300px;
-   font-size: 30px;
-   font-weight: 300;
+   font-size: 26px;
+   font-weight: 800;
+   text-decoration: underline;
    
 }
 
