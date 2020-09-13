@@ -791,7 +791,8 @@ span a {
   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
   transform: translateY(0px);
   animation: float 6s ease-in-out infinite;
-   background-image: linear-gradient( #3362ad,#66cde6);
+   /*background-image: linear-gradient( #3362ad,#66cde6);*/
+   background-color: #fff;
 
 }
   img { width: 100%; height: auto; }
