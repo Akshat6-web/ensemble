@@ -193,14 +193,13 @@ body {
   background-image: url(
 
     ../images/second-bg.png
-    
+
 
   );
 margin: 0 auto;
             height: auto;
             max-width: 100%;
-            border: none;
-            display: block;
+            
             padding: 5px 0;
 }
 
