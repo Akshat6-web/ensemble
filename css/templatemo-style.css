@@ -168,7 +168,7 @@ body {
 
   background-image: url(
 
-    ../images/first-bg.jpg
+    ../images/first-bg.png
 
   );
 
@@ -211,7 +211,7 @@ body {
 
   background-image: url(
 
-    ../images/third-bg.png
+    ../images/third-bg.jpg
 
   );
 
@@ -459,7 +459,7 @@ body {
 
   font-weight: 600;
 
-  color: #fff;
+  color: black;
 
 }
 
@@ -473,7 +473,7 @@ body {
 
   text-transform: uppercase;
 
-  color: #fff;
+  color: black;
 
   padding-bottom: 10px;
 
@@ -485,7 +485,7 @@ body {
 
 .right-caption p {
 
-  color: #fff!important;
+  color: black!important;
 
 }
 
@@ -505,7 +505,7 @@ body {
 
   text-decoration: none!important;
 
-  color: #fff;
+  color: black;
 
   font-size: 13px;
 
@@ -513,7 +513,7 @@ body {
 
   padding: 10px 16px;
 
-  border: 1px solid #fff;
+  border: 1px solid black;
 
   border-radius: 5px;
 
