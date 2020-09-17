@@ -224,7 +224,7 @@ body {
   height: 100vh;
 
 
-
+background-position: cover;
   background-image: url(
 
     ../images/fourth-bg.jpg
@@ -232,6 +232,15 @@ body {
   );
 
 }
+@media (max-width: 700px) {
+            .bg__fourth{width: 100%;}
+            .bg__fourth div{margin: 0 10px}
+        }
+        @media (min-width: 700px) {
+            .bg__fourth {width: 50%;}
+            .bg__fourth:nth-child(odd) div {margin-left: 10px;margin-right: 5px;}
+            .bg__fourth:nth-child(even) div {margin-left: 5px;margin-right: 10px;}
+        }
 
 
 
