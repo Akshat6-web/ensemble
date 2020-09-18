@@ -177,13 +177,13 @@ body {
 }
 
 
-.bg__first .container {
+/*.bg__first .container {
 
   height: 75.5vh;
 
   min-height: 440px;
 
-}
+}*/
 @media (max-width: 700px) {
             .bg__first{width: 100%;}
             .bg__first div{margin: 0 10px}
