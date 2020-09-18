@@ -165,7 +165,7 @@ body {
 
 
 .bg__first {
-  height: 100vh;
+  
 
   background-image: url(
 
@@ -194,7 +194,7 @@ body {
             .bg__first:nth-child(odd) div {margin-left: 10px;margin-right: 5px;}
             .bg__first:nth-child(even) div {margin-left: 5px;margin-right: 10px;}
         }
-        
+
 
 
 
