@@ -177,22 +177,28 @@ body {
 }
 
 
-/*.bg__first .container {
+.bg__first .container {
 
   height: 75.5vh;
 
   min-height: 440px;
 
-}*/
+}
+
 @media (max-width: 700px) {
             .bg__first{width: 100%;}
             .bg__first div{margin: 0 10px}
         }
-        @media (min-width: 400px) {
+        @media (min-width: 700px) {
             .bg__first {width: 100%;}
             .bg__first:nth-child(odd) div {margin-left: 10px;margin-right: 5px;}
             .bg__first:nth-child(even) div {margin-left: 5px;margin-right: 10px;}
         }
+        @media only screen and (max-width: 600px) {
+.bg__first {
+    background-color: red;
+  }
+}
 
 
 
