@@ -94,6 +94,7 @@ background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
 
   overflow-x: hidden;
 
+
 }
 
 
@@ -150,7 +151,7 @@ background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
 
   /* Scale it nicely to the element */
 
-  background-size: 100%;
+  background-size: cover;
 
 
 
@@ -167,23 +168,23 @@ background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
 
 
 .bg__first {
-  
-height: 100vh;
-  
-  
-background-image: url('../images/first-bg.jpeg'); 
- background-repeat: no-repeat;
+
+  background-image: url(
+
+    ../images/first-bg.jpeg
+
+  );
 
 }
 
-
 .bg__first .container {
 
-  height: 70vh;
+  height: 75.5vh;
 
   min-height: 440px;
 
 }
+
 
 @media (max-width: 700px) {
             .bg__first{width: 100%;}
@@ -1997,6 +1998,7 @@ top: 0;
 }
 
 .card {
+  margin: 0px;
   width: 280px;
   height: 360px;
   border-radius: 15px;
@@ -2050,15 +2052,6 @@ top: 0;
   left: 0;
   border-radius: 15px;
 }
-@media (max-width: 700px) {
-            .card{width: 100%;}
-          .card div{margin: 0 10px;}
-        }
-        @media (min-width: 700px) {
-            .card {width: 100%;}
-            .card:nth-child(odd) div {margin-left: 10px;margin-right: 5px;}
-            .card:nth-child(even) div {margin-left: 5px;margin-right: 10px;}
-        }
 
 .card .info {
   position: relative;
