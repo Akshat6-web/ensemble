@@ -88,8 +88,9 @@ p {
 
 body {
 
-  background-color: #36096d !important;
-background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+background-color: #6a93cb !important;
+background-image: linear-gradient(315deg, #6a93cb 0%, #a4bfef 74%);
+
 
   overflow-x: hidden;
 
@@ -169,6 +170,7 @@ background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
   
 height: 100vh;
   background-image: url('../images/first-bg.jpeg');
+  background-size: 100%;
  
  background-repeat: no-repeat;
 
@@ -184,11 +186,11 @@ height: 100vh;
 }
 
 @media (max-width: 700px) {
-            .bg__first{width: 130%;}
+            .bg__first{width: 100%;}
           .bg__first div{margin: 0 10px;}
         }
         @media (min-width: 700px) {
-            .bg__first {width: 130%;}
+            .bg__first {width: 100%;}
             .bg__first:nth-child(odd) div {margin-left: 10px;margin-right: 5px;}
             .bg__first:nth-child(even) div {margin-left: 5px;margin-right: 10px;}
         }
@@ -222,7 +224,7 @@ background-repeat: no-repeat;
   height: 100vh;
 
 
-
+background-repeat: no-repeat;
   background-image: url(
 
     ../images/third-bg.jpg
@@ -239,6 +241,8 @@ background-repeat: no-repeat;
 
 
 background-position: cover;
+background-size: 100%;
+background-repeat: no-repeat;
   background-image: url(
 
     ../images/fourth-bg.jpg
