@@ -184,7 +184,7 @@ body {
 
 @media (max-width: 700px) {
             .bg__first{width: 100%;}
-            .bg__first div{margin: 0 10px}
+          .bg__first div{margin: 0 10px;}
         }
         @media (min-width: 700px) {
             .bg__first {width: 100%;}
