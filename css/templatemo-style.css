@@ -148,7 +148,7 @@ body {
 
   /* Scale it nicely to the element */
 
-  background-size: cover;
+  background-size: 100%;
 
 
 
@@ -176,7 +176,7 @@ body {
 
 .bg__first .container {
 
-  height: 75.5vh;
+  height: 100vh;
 
   min-height: 440px;
 
