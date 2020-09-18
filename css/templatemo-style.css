@@ -167,12 +167,9 @@ body {
 .bg__first {
   
 
-  background-image: url(
-
-    ../images/first-bg.jpg
-
-  );
-  background-size: cover;
+  background-image: url('../images/first-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 
 }
 
