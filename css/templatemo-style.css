@@ -168,11 +168,12 @@ body {
 
   background-image: url(
 
-    ../images/first-bg.png
+    ../images/first-bg.jpg
 
   );
 
 }
+
 
 .bg__first .container {
 
@@ -181,6 +182,15 @@ body {
   min-height: 440px;
 
 }
+@media (max-width: 700px) {
+            .bg__first{width: 100%;}
+            .bg__first div{margin: 0 10px}
+        }
+        @media (min-width: 700px) {
+            .bg__first {width: 100%;}
+            .bg__first:nth-child(odd) div {margin-left: 10px;margin-right: 5px;}
+            .bg__first:nth-child(even) div {margin-left: 5px;margin-right: 10px;}
+        }
 
 
 
