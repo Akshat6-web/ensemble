@@ -168,7 +168,7 @@ background-color: #fff !important;
 
 .bg__first {
 
-background: linear-gradient(to bottom,#6ed3ff,#0299ce);
+background-color: #6ed3ff;
   background-image: url(
 
     ../images/first-bg.jpeg
