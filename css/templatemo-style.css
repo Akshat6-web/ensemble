@@ -51,6 +51,7 @@ html{
   color: #C60;
   
   font-weight: 500;
+  font-size: 40px;
 
 }
 
@@ -1899,13 +1900,12 @@ footer {
 
   }
 
-  .left-image img {
-position: absolute;
-left:0;
-top: 0;
-   width: 500px;
-   width: 500px;
+.left-image img {
+
+    margin: 0 auto;
+
   }
+
 
   .right-caption {
 
