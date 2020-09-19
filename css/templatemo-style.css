@@ -1355,7 +1355,8 @@ footer {
 
   overflow: hidden;
 
-  width: 100%;
+  width: 70%;
+
 
   border-bottom: 3px solid #f23b3b;
 
@@ -1480,6 +1481,8 @@ footer {
 .first-widget {
 
   padding-bottom: 60px;
+  position: relative;
+  left: 192%;
 
 }
 
@@ -1558,6 +1561,8 @@ footer {
 .second-widget {
 
   padding-bottom: 70px;
+  position: relative;
+  left: 188%;
 
 }
 
