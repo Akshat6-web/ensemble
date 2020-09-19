@@ -190,11 +190,11 @@ background-color: #fff !important;
 .bg__second {
 
   border-bottom: 3px solid #01477b;
-border-top: 3px solid #fff;
+border-top: 3px solid #01477b;
   height:62vh;
   background-size: 85%;
 
-/*background-color: #667ce1;*/
+background-color: #09203f;
   /*background-image: url(
 
     ../images/second-bg.jpg
