@@ -170,16 +170,11 @@ background-color: #fff !important;
 
 .bg__first {
 
-background-color: #6ed3ff;
   background-image: url(
 
-    ../images/first-bg.jpeg
+    ../images/first-bg.jpg
 
   );
-  background-size: 100%;
-  background-position: cover;
-  background-repeat: no-repeat;
-  
 
 }
 
@@ -192,7 +187,63 @@ background-color: #6ed3ff;
 }
 
 
-@media (max-width: 700px) {
+
+.bg__second {
+
+  border-bottom: 3px solid #f23b3b;
+
+  height: 45vh;
+
+
+  background-image: url(
+
+    ../images/second-bg.jpg
+
+  );
+
+}
+.bg__second .right-caption{
+  float: right;
+  margin-top: 70px;
+}
+.bg__second .right-caption h4{
+  font-weight: 600;
+}
+
+
+.bg__third {
+
+  height: 100vh;
+
+
+
+  background-image: url(
+
+    ../images/third-bg.jpg
+
+  );
+
+}
+
+
+
+.bg__fourth {
+
+  height: 100vh;
+
+
+
+  background-image: url(
+
+    ../images/fourth-bg.jpg
+
+  );
+
+}
+
+
+
+/*@media (max-width: 700px) {
             .bg__first{width: 100%;}
           .bg__first div{margin: 0 10px;}
         }
@@ -206,7 +257,7 @@ background-color: #6ed3ff;
 
 
 
-.bg__second {
+/*.bg__second {
 
   border-bottom: 3px solid #f23b3b;
 
@@ -257,7 +308,7 @@ background-repeat: no-repeat;
 
   );
 
-}
+}*/
 @media (max-width: 700px) {
             .bg__second{width: 100%;}
             .bg__second div{margin: 0 10px}
@@ -486,24 +537,16 @@ background-repeat: no-repeat;
   color: #fff;
 
 }
-.right-caption img{
-  position: relative;
-  top: -160px;
-  left: -50px;
-  width: 200px;
-  height: auto;
 
-
-}
 
 
 .right-caption h4 {
 
-  background-color: 
+  font-size: 24px;
 
   font-weight: 600;
 
-  
+  color: #fff;
 
 }
 
@@ -517,7 +560,7 @@ background-repeat: no-repeat;
 
   text-transform: uppercase;
 
-  color: black;
+  color: #fff;
 
   padding-bottom: 10px;
 
@@ -529,9 +572,10 @@ background-repeat: no-repeat;
 
 .right-caption p {
 
-  color: black!important;
+  color: #fff!important;
 
 }
+
 
 
 
