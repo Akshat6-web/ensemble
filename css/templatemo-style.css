@@ -2095,7 +2095,7 @@ footer {
   opacity: 0;
 }
 .card img {
-  width: 280px;
+  width: 217px;
   height: 360px;
   size: 100%;
   -o-object-fit: cover;
@@ -2105,7 +2105,31 @@ footer {
   left: 0;
   border-radius: 15px;
 }
+@media (min-width: 600px) {
 
+  .card img {
+width: 280px;
+height: 360px;
+    
+
+  }
+
+  @media (min-width: 900px){.card img {
+width: 420px;
+height: 540px;
+    
+
+  }
+
+
+}
+@media (min-width: 600px) {
+  .card { width: 280px; height: 360px; }
+}
+
+@media (min-width: 900px) {
+  .card { width: 420px; height: 540px; }
+}
 .card .info {
   position: relative;
   z-index: 3;
@@ -2224,4 +2248,5 @@ footer {
    text-decoration: none;
    border-bottom: 1px dotted rgba(83, 199, 199, 0.7);
 }
+ 
  
