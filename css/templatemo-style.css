@@ -49,6 +49,8 @@ html{
 .orange {
 
   color: #C60;
+  font-size: 42px;
+  font-weight: 500;
 
 }
 
@@ -57,7 +59,7 @@ html{
 .white {
 
   color: #FFF;
-
+font-size:42px; 
 }
 
 
@@ -497,11 +499,11 @@ background-repeat: no-repeat;
 
 .right-caption h4 {
 
-  font-size: 24px;
+  background-color: 
 
   font-weight: 600;
 
-  color: black;
+  
 
 }
 
