@@ -48,7 +48,7 @@ html{
 
 .orange {
 
-  color: #C60;
+  color: #9f286c;
   
   font-weight: 500;
   font-size: 40px;
@@ -1930,6 +1930,7 @@ footer {
   .right-caption p {
 
     margin-top: -5px;
+    font-size: 28px;
 
   }
 
