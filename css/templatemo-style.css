@@ -209,6 +209,7 @@ background-color: #667ce1;
 }
 .bg__second .right-caption h4{
   font-weight: 600;
+
 }
 
 
@@ -543,7 +544,7 @@ background-repeat: no-repeat;
 
 .right-caption h4 {
 
-  font-size: 24px;
+  font-size: 32px;
 
   font-weight: 600;
 
@@ -555,7 +556,7 @@ background-repeat: no-repeat;
 
 .right-caption h2 {
 
-  font-size: 42px;
+  
 
   font-weight: 600;
 
@@ -1885,7 +1886,7 @@ footer {
 
   .right-caption h4 {
 
-    font-size: 16px;
+    font-size: 24px;
 
   }
 
