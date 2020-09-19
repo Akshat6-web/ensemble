@@ -202,6 +202,7 @@ background-color: #fff !important;
     ../images/second-bg.png
 
   );
+  background-repeat: no-repeat;
 
 }
 .bg__second .right-caption{
