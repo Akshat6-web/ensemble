@@ -50,9 +50,6 @@ html{
 
   color: #9f286c;
   
-  font-weight: 500;
-  font-size: 40px;
-  
 
 }
 
@@ -61,7 +58,6 @@ html{
 .white {
 
   color: #FFF;
-  font-size: 30px;
 
 }
 
@@ -213,7 +209,6 @@ background-color: #667ce1;
 }
 .bg__second .right-caption h4{
   font-weight: 600;
-
 }
 
 
@@ -560,7 +555,7 @@ background-repeat: no-repeat;
 
 .right-caption h2 {
 
-  font-size: 30px;
+  font-size: 42px;
 
   font-weight: 600;
 
@@ -579,9 +574,9 @@ background-repeat: no-repeat;
 .right-caption p {
 
   color: #fff!important;
-  font-size: 15px;
 
 }
+
 
 
 
@@ -1906,12 +1901,11 @@ footer {
 
   }
 
-.left-image img {
+  .left-image img {
 
     margin: 0 auto;
 
   }
-
 
   .right-caption {
 
@@ -1934,7 +1928,6 @@ footer {
   .right-caption p {
 
     margin-top: -5px;
-    font-size: 28px;
 
   }
 
@@ -2035,9 +2028,7 @@ footer {
   }
 
 }
-* {
-  box-sizing: border-box;
-}
+
 
 #third-section {
   width: 100%;
