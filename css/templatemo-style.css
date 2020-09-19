@@ -191,15 +191,15 @@ background-color: #fff !important;
 
   border-bottom: 3px solid #01477b;
 border-top: 3px solid #fff;
-  height:60vh;
+  height:62vh;
   background-size: 85%;
 
-background-color: #667ce1;
-  background-image: url(
+/*background-color: #667ce1;*/
+  /*background-image: url(
 
     ../images/second-bg.jpg
 
-  );
+  );*/
   background-repeat: no-repeat;
 
 }
@@ -2248,5 +2248,10 @@ height: 540px;
    text-decoration: none;
    border-bottom: 1px dotted rgba(83, 199, 199, 0.7);
 }
- 
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 30%;
+      margin: auto;
+      height:60vh;
+  }
  
