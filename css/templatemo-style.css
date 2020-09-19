@@ -210,7 +210,7 @@ background-color: #6ed3ff;
 
   border-bottom: 3px solid #f23b3b;
 
-  height: 55vh;
+  height: 75vh;
 
   background-image: url(
 
@@ -219,7 +219,7 @@ background-color: #6ed3ff;
 
   );
   background-color: #0299ce;
-background-size: 100%;
+background-size: 75%;
 background-repeat: no-repeat;
             
             
@@ -1481,8 +1481,6 @@ footer {
 .first-widget {
 
   padding-bottom: 60px;
-  position: relative;
-  left: 192%;
 
 }
 
@@ -1561,8 +1559,7 @@ footer {
 .second-widget {
 
   padding-bottom: 70px;
-  position: relative;
-  left: 188%;
+
 
 }
 
