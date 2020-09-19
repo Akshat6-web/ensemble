@@ -52,6 +52,7 @@ html{
   
   font-weight: 500;
   font-size: 40px;
+  
 
 }
 
@@ -60,6 +61,7 @@ html{
 .white {
 
   color: #FFF;
+  font-size: 30px;
 
 }
 
@@ -211,6 +213,7 @@ background-color: #667ce1;
 }
 .bg__second .right-caption h4{
   font-weight: 600;
+
 }
 
 
@@ -576,6 +579,7 @@ background-repeat: no-repeat;
 .right-caption p {
 
   color: #fff!important;
+  font-size: 15px;
 
 }
 
