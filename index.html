@@ -107,7 +107,7 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <!--<li data-target="#myCarousel" data-slide-to="3"></li>-->
   </ol>
 
   <!-- Wrapper for slides -->
@@ -228,27 +228,84 @@
 
       <div class="bg__fourth">
         <div id="fourth-section">
-       <!--   <card>
-  <pic>
-    <img src="profile.jpeg">
-    
-  </pic>
-  <info>
-    <h1> 
-      <name>Ensemble <br></name>
-    </h1>
-    <line></line>
-    <p>Ensemble is a well-thought initiative to bring all ib educators of the world in close proximity working across all the programmes of IB.
-Ensembles believe in its motto of “Becoming better together” and welcomes of IB educators to share their experiences, work, thoughts with their own names. Ensemble gives appropriate credit to the contributor.
-Ensemble believes in building student-centric approaches for teaching & learning. It also acts as a sharing platform and believes in giving educators an opportunity to relive their stress by penning down their thoughts on the blogs/vlogs at ensemble.
-<br> <br>
+       <div class="courses-container">
+  <div class="course">
+    <div class="course-preview">
+      <h6>Course</h6>
+      <h2>JavaScript Fundamentals</h2>
+      <a href="#">View all chapters <i class="fas fa-chevron-right"></i></a>
+    </div>
+    <div class="course-info">
+      <div class="progress-container">
+        <div class="progress"></div>
+        <span class="progress-text">
+          6/9 Challenges
+        </span>
+      </div>
+      <h6>Chapter 4</h6>
+      <h2>Callbacks & Closures</h2>
+      <button class="butn">Continue</button>
+    </div>
+  </div>
+</div>
 
-<strong>Disclaimer: This is a noncommercial website and intends for sharing resources/information/thoughts only, no monetary benefit associated with this.</strong></p>
+<!-- SOCIAL PANEL HTML -->
+<div class="social-panel-container">
+  <div class="social-panel">
+    <p>Created with <i class="fa fa-heart"></i> by
+      <a target="_blank" href="https://florin-pop.com">Florin Pop</a></p>
+    <button class="close-butn"><i class="fas fa-times"></i></button>
+    <h4>Get in touch on</h4>
+    <ul>
+      <li>
+        <a href="https://www.patreon.com/florinpop17" target="_blank">
+          <i class="fab fa-discord"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/florinpop1705" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://linkedin.com/in/florinpop17" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://facebook.com/florinpop17" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com/florinpop17" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
 
-  </info>
-</card>-->
+<div class="floating-text">
+  Part of <a href="https://florin-pop.com/blog/2019/09/100-days-100-projects" target="_blank">#100Days100Projects</a>
+</div>
               </div>
             </div>
+            <script>// INSERT JS HERE
+
+
+// SOCIAL PANEL JS
+const floating_btn = document.querySelector('.floating-butn');
+const close_btn = document.querySelector('.close-butn');
+const social_panel_container = document.querySelector('.social-panel-container');
+
+floating_btn.addEventListener('click', () => {
+  social_panel_container.classList.toggle('visible')
+});
+
+close_btn.addEventListener('click', () => {
+  social_panel_container.classList.remove('visible')
+});</script>
             <div class="col-md-12">
               <div class="fourth-arrow">
                 <a href="#" class="scroll-link btn btn-dark" data-id="fifth-section"><i class="fa fa-angle-down"></i></a>
