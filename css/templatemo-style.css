@@ -193,7 +193,7 @@ background-color: #fff !important;
 
   border-bottom: 3px solid #f23b3b;
 
-  height: 75vh;
+  height:60vh;
   background-size: 85%;
 
 background-color: #667ce1;
@@ -614,9 +614,9 @@ background-repeat: no-repeat;
 
 .stroked-button a:hover {
 
-  color: #f23b3b;
+  color: #fff;
 
-  border-color: #f23b3b;
+  border-color: #fff;
 
     -webkit-transition: all 0.3s ease 0s;
 
