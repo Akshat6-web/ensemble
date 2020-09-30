@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+session_start();
+if (strlen($_SESSION['id']==0)) {
+  header('location:logout.php');
+  } else{
+    
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,28 +18,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Food for Thought </title>
+    <title>Welcome </title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/heroic-features.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
-
 </head>
 <body>
-    <div class="container-fluid">
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav">
-        <li><a id="len1" class="hoverable" href="#foodforthought.html">category#1</a></li>
-        <li><a id="len2" class="hoverable" href="fft2.html">category#1</a></li>
-        <li><a id="len3" class="hoverable" href="fft3.html">category#1</a></li>
-        <li><a id="len4" class="hoverable" href="#">category#1</a></li>
-      </ul>
-    </div>
-  </nav>
-</div>
-
-    <!--<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -44,28 +34,26 @@
                 </button>
                 <a  class="navbar-brand" href="#">Welcome !</a>
                 <a class="navbar-brand" href="#"><?php echo $_SESSION['name'];?></a>
+                
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        
-                    </li>
+                   
                     <li>
                         <a href="logout.php">Logout</a>
                     </li>
-                    <li>
-                  <a class=""  href="welcome.php">Tier1</a>
-              </li>
-                <li><a class=""  href="welcome1.php">Tier2</a></li>
-                <li><a class=""  href="welcome2.php">Tier3</a></li>
+                    <li><a   href="welcome.php">Tier1</a></li>
+                <li><a   href="welcome1.php">Tier2</a></li>
+                <li><a   href="welcome2.php">Tier3</a></li>
+                  
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container">
+    <!--<div class="container">
         <header class="jumbotron hero-spacer">
-            <p>A Warm Welcome!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+            <h1>A Warm Welcome!</h1>
+            <p>More Stickers Coming Soon!!, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
             <p><a  href="logout.php" class="btn btn-primary btn-large">Logout </a>
             </p>
         </header>
@@ -74,8 +62,8 @@
 
         
 
-
-    </div>-->
+-->
+    </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <div id="wrapper">
@@ -83,8 +71,7 @@
                 <!-- Header -->
                     <header id="header">
                         <span class="avatar"><img src="images/avatar.png" alt="" /></span>
-                        <p><strong>Food for Thought</strong><br>Get free access to virtual stickers for free<a href="http://templated.co"> designed by</a><br />
-                        ensemble.org.in</p>
+                        <p><strong>Tier 2 Stickers</p>
                         <ul class="icons">
                             <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
                             <li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
@@ -95,60 +82,59 @@
                         <p><strong>Follow Us here and download the stickers for free</p>
                     </header>
 
-
                 <!-- Main -->
                     <section id="main">
 
                         <!-- Thumbnails -->
                             <section class="thumbnails">
                                 <div>
-                                    <a href="images/fulls/01.">
-                                        <img src="images/thumbs/01." alt="" />
-                                        <h3>Lorem ipsum dolor sit amet</h3>
+                                    <a href="images/fulls/comingsoon.jpg">
+                                        <img src="images/thumbs/comingsoon.jpg" alt="" />
+                                        <h3>More Stickers Coming Soon!!</h3>
                                     </a>
-                                    <a href="images/fulls/02.">
-                                        <img src="images/thumbs/02." alt="" />
-                                        <h3>Lorem ipsum dolor sit amet</h3>
+                                    <a href="images/fulls/comingsoon.jpg">
+                                        <img src="images/thumbs/comingsoon.jpg" alt="" />
+                                        <h3>More Stickers Coming Soon!!</h3>
                                     </a>
                                 
-                                    <a href="images/fulls/03.">
-                                        <img src="images/thumbs/03." alt="" />
-                                        <h3>Lorem ipsum dolor sit amet</h3>
+                                    <a href="images/fulls/comingsoon.jpg">
+                                        <img src="images/thumbs/comingsoon.jpg" alt="" />
+                                        <h3>More Stickers Coming Soon!!</h3>
                                     </a>
                                     </div>
                                 <div>
-                                    <a href="images/fulls/04.">
-                                        <img src="images/thumbs/04." alt="" />
-                                        <h3>Lorem ipsum dolor sit amet</h3>
+                                    <a href="images/fulls/comingsoon.jpg">
+                                        <img src="images/thumbs/comingsoon.jpg" alt="" />
+                                        <h3>More Stickers Coming Soon!!</h3>
                                     </a>
-                                    <a href="images/fulls/05.">
-                                        <img src="images/thumbs/05." alt="" />
-                                        <h3>Lorem ipsum dolor sit amet</h3>
+                                    <a href="images/fulls/comingsoon.jpg">
+                                        <img src="images/thumbs/comingsoon.jpg" alt="" />
+                                        <h3>More Stickers Coming Soon!!</h3>
                                     </a>
                                
-                                    <a href="images/fulls/06.">
-                                        <img src="images/thumbs/06." alt="" />
-                                        <h3>Lorem ipsum dolor sit amet</h3>
+                                    <a href="images/fulls/comingsoon.jpg">
+                                        <img src="images/thumbs/comingsoon.jpg" alt="" />
+                                        <h3>More Stickers Coming Soon!!</h3>
                                     </a>
                                      </div>
 
                                 <div>
-                                    <a href="images/fulls/07.">
-                                        <img src="images/thumbs/07." alt="" />
-                                        <h3>Lorem ipsum dolor sit amet</h3>
+                                    <a href="images/fulls/comingsoon.jpg">
+                                        <img src="images/thumbs/comingsoon.jpg" alt="" />
+                                        <h3>More Stickers Coming Soon!!</h3>
                                     </a>
                                
-                                    <a href="images/fulls/08.">
-                                        <img src="images/thumbs/08." alt="" />
-                                        <h3>Lorem ipsum dolor sit amet</h3>
+                                    <a href="images/fulls/comingsoon.jpg">
+                                        <img src="images/thumbs/comingsoon.jpg" alt="" />
+                                        <h3>More Stickers Coming Soon!!</h3>
                                     </a>
-                                    <a href="images/fulls/09.">
-                                        <img src="images/thumbs/09." alt="" />
-                                        <h3>Lorem ipsum dolor sit amet</h3>
+                                    <a href="images/fulls/comingsoon.jpg">
+                                        <img src="images/thumbs/comingsoon.jpg" alt="" />
+                                        <h3>More Stickers Coming Soon!!</h3>
                                     </a>
-                                     <a href="images/fulls/10.">
-                                        <img src="images/thumbs/10." alt="" />
-                                        <h3>Lorem ipsum dolor sit amet</h3>
+                                     <a href="images/fulls/comingsoon.jpg">
+                                        <img src="images/thumbs/comingsoon.jpg" alt="" />
+                                        <h3>More Stickers Coming Soon!!</h3>
                                     </a>
                                 </div>
                                 
