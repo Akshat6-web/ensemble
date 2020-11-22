@@ -17,17 +17,3 @@
   text-decoration: none;
   color: #555;
 }
-.container a{
-  
-  
-  color: black;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-padding: 7px 7px 7px 7px;
-}
-.container a :hover{
-background-color: #00baf7;
-  color: #000000;
-  
-}
